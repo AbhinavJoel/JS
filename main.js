@@ -1,2 +1,6 @@
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+let age = 30;
+const num = 500;
+console.log(age);
+console.log(num);
+
+
