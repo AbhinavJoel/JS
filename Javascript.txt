@@ -1,0 +1,17 @@
+JavaScript was initially created to “make web pages alive”.
+
+The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
+
+Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
+here are at least three great things about JavaScript:
+
+Full integration with HTML/CSS.
+Simple things are done simply.
+Support by all major browsers and enabled by default.
+JavaScript is the only browser technology that combines these three things.
+
+That’s what makes JavaScript unique. That’s why it’s the most widespread tool for creating browser interfaces.
+
+That said, JavaScript also allows to create servers, mobile applications, etc.
+
+The <script> tag contains JavaScript code which is automatically executed when the browser processes the tag.
