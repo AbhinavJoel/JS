@@ -1,10 +1,12 @@
-var currentdate = new Date(); 
-var datetime = "Last Sync: " + currentdate.getDate() + "/"
-                + (currentdate.getMonth()+1)  + "/" 
-                + currentdate.getFullYear() + " @ "  
-                + currentdate.getHours() + ":"  
-                + currentdate.getMinutes() + ":" 
-                + currentdate.getSeconds();
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date()
+}
 
-console.log(currentdate)
-console.log(datetime)
+function myFunction() {
+    var x = document.getElementById("fname");
+    x.value = x.value.toUpperCase();
+}
+
+function myFunction() {
+    document.getElementById("demo2").innerHTML = "Nice to meet you buddy";
+  }
