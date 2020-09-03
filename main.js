@@ -1,5 +1,10 @@
 $( "#clickme" ).click(function() {
-    $( "#book" ).hide( "slow", function() {
+    $( "#book" ).fadein( "slow", function() {
+      alert( "Animation complete." );
+    });
+  });
+$( "#clickme2" ).click(function() {
+    $( "#book" ).fadeout( "slow", function() {
       alert( "Animation complete." );
     });
   });
@@ -12,4 +17,14 @@ $( "#clickme" ).click(function() {
     $( this ).hide( 2000, function() {
       $( this ).remove();
     });
+  });
+
+  $( "#target" ).toggle(function() {
+    alert( "First handler for .toggle() called." );
+  }, function() {
+    alert( "Second handler for .toggle() called." );
+  });
+
+  $( "#target" ).dblclick(function() {
+    alert( "Handler for .dblclick() called." );
   });
