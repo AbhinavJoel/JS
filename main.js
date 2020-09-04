@@ -28,3 +28,24 @@ $( "#clickme2" ).click(function() {
   $( "#target" ).dblclick(function() {
     alert( "Handler for .dblclick() called." );
   });
+
+  $(document).ready(function(){
+    $("button").click(function(){
+      $.get("demo_test.asp", function(data, status){
+        alert("Data: " + data + "\nStatus: " + status);
+      });
+    });
+  });
+
+  $(document).ready(function(){
+    $("button").click(function(){
+      $.post("demo_test_post.asp",
+      {
+        name: "Donald Duck",
+        city: "Duckburg"
+      },
+      function(data,status){
+        alert("Data: " + data + "\nStatus: " + status);
+      });
+    });
+  });
