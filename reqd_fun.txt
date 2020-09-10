@@ -1,0 +1,10 @@
+The list of functionalities that are necessary are -
+A 'select language' dropdown has to be in the experiment tab which when clicked, opens a drop down consisting of two languages, english and hindi. If we click select language again, the drop down has to get closed.
+When we click the language we want, we get a list of jumbled words as buttons on the display.
+We have to form a meaningful sentence using these words i.e, buttons.
+Once we click the buttons, they have to dissapear from their existing row and appear as a text in the next row.
+Once we click all the buttons, a new button has to pop up which is 'check the correctness of the sentence' which  when clicked gets the answer displayed i.e, whether the sentence we made is right or wrong.
+As soon as we click on any word, a new button has to pop up below the display text which is the 'reform sentence' button which when clicked will give back or send all the buttons to their original place and their original order.
+If the answer is wrong, another button has to pop up which is 'get correct sentence', which when clicked will display the right answer.
+Re-form the sentence has to return all the existing buttons to its original place.
+Whenever the page is refreshed, a new sentence has to be there ie, random sentences have to be selected and not the same sentence each time.
