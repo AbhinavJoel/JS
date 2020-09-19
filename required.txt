@@ -1,0 +1,12 @@
+Initially there is a select language drop down wherein the user is asked to select the language
+When one of the languages is selected from english or hindi another new drop box appears
+This dropbox has a list of sentences
+When one of the sentences are clicked, a table is shown with the Lexicon and POS columns
+The lexicon column has the selected sentence divided into words
+The pos column has dropdowns with various parts of speech
+when the required answers are selected, the user is allowed to click the submit button
+Another column gets enabled which shows whether the answers are right or not
+Another button is enabled which is the show answer button
+this button is a toggle button which displays and hides the correct answers
+We use the POS Tagger library to get various parts of speech of various words
+This exercise it to understand the POS tagger and the parts of speech
